@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Inspirational"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Motivational"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Life"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Friendship"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Leadership"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Happiness"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Attitude"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Loneliness"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Nature"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Science"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Wisdom"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Relationship"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Trust"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Strength"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="Reading"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="AI"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/custom_tag_button"
+                android:textColor="@color/black"
+                android:text="mixed reality"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories">
+
+    <ImageView
+        android:id="@+id/ivBackCategories"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/ivBackEdit"
+        android:fontFamily="@font/poppins"
+        android:text="Choose Favorite Categories"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <include
+        android:layout_gravity="center"
+        layout="@layout/tag_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/ivBackEdit"
+        android:fontFamily="@font/poppins"
+        android:text="Choose Favorite Authors"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <include
+        android:layout_gravity="center"
+        layout="@layout/tag_layout_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/custom_button"
+        android:elevation="20sp"
+        android:fontFamily="@font/poppins"
+        android:letterSpacing="0.13"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:padding="8dp"
+        android:shadowColor="@color/black"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+</LinearLayout>
